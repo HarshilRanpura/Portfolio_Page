@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head Tag -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio</title>
+
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="Portfolio favicon.png" type="image/png">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="Output.css">
+</head>
+
+<!-- Body Tag -->
+<body>
+
+    <!-- Header Section -->
+    <header class="p-4 bg-gray-800 text-white">
+        <div class="flex flex-col items-center space-y-4">
+
+            <!-- Logo -->
+            <div class="text-3xl font-bold text-center">Harshil Ranpura</div>
+
+            <!-- Navbar Options -->
+            <nav>
+                <ul class="flex flex-col sm:flex-row sm:justify-center sm:space-x-4 space-y-2 sm:space-y-0 text-center">
+                    <li><a href="#home" class="hover:text-blue-400">Home</a></li>
+                    <li><a href="#about" class="hover:text-blue-400">About Me</a></li>
+                    <li><a href="#education" class="hover:text-blue-400">My Education</a></li>
+                    <li><a href="#skills" class="hover:text-blue-400">My Skills</a></li>
+                    <li><a href="#certifications" class="hover:text-blue-400">My Certifications</a></li>
+                    <li><a href="#experience" class="hover:text-blue-400">My Experience</a></li>
+                    <li><a href="#projects" class="hover:text-blue-400">My Projects</a></li>
+                    <li><a href="#contact" class="hover:text-blue-400">Contact Me</a></li>
+                </ul>
+            </nav>
+
+            <!-- For Static Day/Night Mode without JavaScript -->
+            <div class="cursor-pointer text-sm">Day/Night</div> 
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="text-center p-8 bg-gray-100">
+
+        <!-- Heading For Home -->
+        <h1 class="text-4xl font-bold mb-4">Hello there, Welcome to My Portfolio Website</h1>
+
+        <!-- Intro Text For Home -->
+        <p class="text-lg text-gray-600 mb-6">My name is Harshil Ranpura, a passionate Front-end Developer.</p>
+
+        <!--  Profile Image For Home -->
+        <img src="Harshil Ranpura pic.png" alt="Profile" class="rounded-full w-32 h-32 mx-auto mb-4 border-gray-800 border-4 transform transition-transform duration-300 hover:scale-110">
+
+        <!-- Social Media Links For Home -->
+        <div class="flex justify-center space-x-4 mb-4">
+
+            <!-- Social Media 1 -->
+             <div>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/harshil-ranpura-54546527a/" class="text-gray-600 hover:text-gray-800">LinkedIn</a>
+            </div>
+
+            <!-- Social Media 2 -->
+            <div>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/HarshilRanpura" class="text-gray-600 hover:text-gray-800">GitHub</a>
+            </div>
+
+            <!-- Social Media 3 -->
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/harshilranpura2003/" class="text-gray-600 hover:text-gray-800">Instagram</a>
+            </div>
+
+            <!-- Social Media 4 -->
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com/" class="text-gray-600 hover:text-gray-800">Facebook</a>
+            </div>
+        </div>
+
+        <!-- Resume View And Download Button -->
+        <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="Harshil_Ranpura_Resume.pdf">View My Resume</a></button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="p-8 bg-white">
+
+        <!-- Heading For About Me -->
+        <h2 class="text-3xl font-bold text-center mb-4">About Me</h2>
+        <div class="text-center">
+
+            <!-- Intro Text For About Me -->
+            <p class="text-lg text-gray-700 mb-4">An emerging young talent in Computer Engineering with a passion for crafting and managing responsive, user-centric web applications. Proficient in front-end development, adept at turning creative ideas into functional designs, and experienced in using modern technologies to build seamless digital experiences. With a strong foundation in coding and problem-solving, I thrive in collaborative environments and take pride in delivering high-quality work. Currently seeking an internship opportunity to contribute to impactful user experiences and drive business growth while enhancing my technical expertise and gaining real-world experience in the field. Driven by a continuous learning mindset, I am eager to tackle challenges and bring value to innovative projects.</p>
+
+            <!--  Profile Image For About Me -->
+            <img src="Harshil Ranpura pic.png" alt="Profile" class="rounded-full w-32 h-32 mx-auto mb-4 border-gray-800 border-4 transform transition-transform duration-300 hover:scale-110">
+
+            <!-- View More Button For About Me -->
+            <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800">Read More</button>
+        </div>
+    </section>
+
+    <!-- Eduction Section --> 
+    <section id="education" class="p-8 bg-gray-100">
+
+        <!-- Heading For Education -->
+        <h2 class="text-3xl font-bold text-center mb-6">My Education</h2>
+
+        <!-- Esducational Details Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- Education Item Card 1 -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">Bachelor of Technology in Computer Engineering</h3>
+                <p class="text-gray-600 mb-4"><strong>Passing Year: </strong>June, 2025 (currently in final semester)</p>
+                <p class="text-gray-600 mb-4"><strong>University/Institute: </strong>Silver Oak University, Ahmedabad</p>
+                <p class="text-gray-600 mb-4"><strong>Overall CGPA: </strong>7.39/10</p>
+            </div>
+
+            <!-- Education Item Card 2 -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">Higher Secondary School Certificate</h3>
+                <p class="text-gray-600 mb-4"><strong>Passing Year: </strong>May, 2021</p>
+                <p class="text-gray-600 mb-4"><strong>School/Institute: </strong>Shree P.V. Modi School, Rajkot</p>
+                <p class="text-gray-600 mb-4"><strong>Percentage: </strong>81.23%</p>
+            </div>
+
+            <!-- Education Item Card 3 -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2"> Secondary School Certificate</h3>
+                <p class="text-gray-600 mb-4"><strong>Passing Year: </strong>March, 2019</p>
+                <p class="text-gray-600 mb-4"><strong>School/Institute: </strong>Shree P.V. Modi School, Rajkot</p>
+                <p class="text-gray-600 mb-4"><strong>Percentage: </strong>78.83%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="p-8 bg-white">
+
+        <!-- Main Heading For Skills -->
+        <h2 class="text-3xl font-bold text-center mb-6">My Skills</h2>
+
+        <!-- Sub Heading For Technical Skills -->
+        <h3 class="text-2xl font-bold text-center mb-5">Technical Skills</h3>
+
+        <!-- Skill Bars -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- HTML Skill Bar -->
+            <div>
+                <p>HTML</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 90%;"></div>
+                </div>
+            </div>
+
+            <!-- CSS Skill Bar -->
+            <div>
+                <p>CSS</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <!-- Git and Github Skill Bar -->
+            <div>
+                <p>Git and Github</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <!-- Tailwind CSS Skill Bar -->
+            <div>
+                <p>Tailwind CSS</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <!-- MS office Skill Bar -->
+            <div>
+                <p>MS Office</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <!-- Basic JavaScript Skill Bar -->
+            <div>
+                <p>Basic JavaScript</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <!-- Basic Python Skill Bar -->
+            <div>
+                <p>Basic Python</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 50%;"></div>
+                </div>
+            </div>
+
+            <!-- Basic Java Skill Bar -->
+            <div>
+                <p>Basic Java</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 45%;"></div>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- Sub Heading For Soft Skills -->
+        <h3 class="text-2xl font-bold text-center mb-5">Soft Skills</h3>
+
+        <!-- Skill Bars -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Team Work Skill Bar -->
+            <div>
+                <p>Team Work</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <!-- Creativity Skill Bar -->
+            <div>
+                <p>Creativity</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 70%;"></div>
+                </div>
+            </div>
+
+            <!-- Problem Solving Skill Bar -->
+            <div>
+                <p>Problem Solving</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 65%;"></div>
+                </div>
+            </div>
+
+            <!-- Communication Skill Bar -->
+            <div>
+                <p>Communication</p>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                    <div class="bg-gray-600 h-4 rounded-full" style="width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="p-8 bg-gray-100">
+
+        <!-- Heading For Certifications -->
+        <h2 class="text-3xl font-bold text-center mb-6">My Certifications</h2>
+
+        <!-- Certificates Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- Certification Card 1 -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">Introduction To Cyber Security</h3>
+                <p class="text-gray-600 mb-4">by, Infosys Springboard (Online)</p>
+                <p class="text-gray-600 mb-4">Gained knowledge of the foundational ideas of cybersecurity, including availability, confidentiality, and integrity. Examined and learnt how to fight against typical cyberthreats, including malware, phishing, and network attacks. Acquired knowledge of network security protocols, authentication, and encryption to safeguard systems and data. Researched the significance of security policies in organizational settings and risk assessment techniques.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="Harshil ranpura introduction to cyber security certificate.pdf" target="_blank">View Certificate</a></button>
+            </div>
+
+            <!-- Certification Card 2 -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">Remote Sensing And Digital Image Analysis</h3>
+                <p class="text-gray-600 mb-4">by, ISRO (Online)</p>
+                <p class="text-gray-600 mb-4">Acquired a basic understanding of remote sensing concepts, including how to collect data from satellites and other distant platforms. Acquired knowledge of digital image analysis methods, including classification, interpretation, enhancement, and preprocessing. Gained expertise in processing spatial data and producing insights from satellite imagery utilizing software tools. Examined how remote sensing can be used for resource management, urban planning, and environmental monitoring.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="Harshil ranpura remote sensing and digital Image analysis certificate.pdf" target="_blank">View Certificate</a></button>
+            </div>
+
+            <!-- Certification Card 3 -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">Masterclass On Build An E Commerce App With React Program</h3>
+                <p class="text-gray-600 mb-4">By, Physic Wallah (Online)</p>
+                <p class="text-gray-600 mb-4">Completed a masterclass on building an e-commerce application with React, gaining hands-on experience in developing dynamic and user-friendly interfaces, implementing modern tools, and adhering to best practices for scalable web applications.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="Harshil ranpura masterclass on build an e commerce app with react program certificate.pdf" target="_blank">View Certificate</a></button>
+            </div>
+
+            <!-- Certification Card 4 -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">Full Stack Development: Let's Begin</h3>
+                <p class="text-gray-600 mb-4">By, Internshala Trainings (Online)</p>
+                <p class="text-gray-600 mb-4">Successfully completed the 'Full Stack Development: Let's Begin' course, mastering foundational concepts in full stack development and Visual Studio Code. Achieved a perfect score of 100% in the final assessment, demonstrating strong technical proficiency.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="Harshil ranpura full stack development let's begin training certificate.pdf" target="_blank">View Certificate</a></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experience Section --> 
+    <section id="experience" class="p-8 bg-white">
+
+        <!-- Heading For Experience -->
+        <h2 class="text-3xl font-bold text-center mb-6">My Experience</h2>
+
+        <!-- Experience Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Experience Item 1 -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-gray-100">
+                <h3 class="text-xl font-semibold mb-2"> PHP Developer (Intern)</h3>
+                <p class="text-gray-600 mb-4"><strong>Time period: </strong> June, 2023 (15 days) (Remote)</p>
+                <p class="text-gray-600 mb-4"><strong>At: </strong>Seth Web World, Rajkot</p>
+                <p class="text-gray-600 mb-4"><strong>Work: </strong>Developing and Enhancing an Inventory Management System using PHP. Tasks included Designing, Coding, Testing, and Maintaining Features to manage inventory</p>
+            </div>
+
+            <!-- Experience Item 2 -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-gray-100">
+                <h3 class="text-xl font-semibold mb-2">Web Developer (Intern)</h3>
+                <p class="text-gray-600 mb-4"><strong>Time period: </strong> December, 2023 (15 days) (Remote)</p>
+                <p class="text-gray-600 mb-4"><strong>At: </strong>Bat Web Solutions, Ahmedabad</p>
+                <p class="text-gray-600 mb-4"><strong>Work: </strong> Completed training in Web Development at Bat Web Solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="p-8 bg-gray-100">
+
+        <!-- Heading For Projects -->
+        <h2 class="text-3xl font-bold text-center mb-6">My Projects</h2>
+
+        <!-- Project Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Project Card 1 (TeXplorer-1) -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">TeXplorer: An Android App for Device Information</h3>
+                <p class="text-gray-600 mb-4">TeXplorer is a group project for the problem-based learning program for my semester 6, and I and my team created this application for Android devices.</p>
+                <p class="text-gray-600 mb-4">TeXplorer is an Android app designed to provide detailed insights into device specifications. It offers comprehensive hardware and software information through a user-friendly interface, making it easy to understand your device's capabilities.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="https://drive.google.com/file/d/1icHFl93Y2vdjL7K6-7RKcpapvg_9AW2L/view?usp=drive_link">Click for the TeXplorer</a></button>
+            </div>
+
+            <!-- Project Card 2 (Amazon Clone-1) -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">Amazon homepage Clone with HTML and CSS only</h3>
+                <p class="text-gray-600 mb-4">Amazon is a globally renowned e-commerce platform offering a vast range of products, including electronics, fashion, books, and household items. Known for its user-friendly interface, fast delivery services, and customer-centric policies, it has become a one-stop shop for online shoppers. Amazon also provides services like Amazon Prime, streaming, and cloud computing through AWS. With its commitment to innovation and convenience, it has revolutionized online shopping worldwide.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="https://drive.google.com/file/d/1CTMzmXDOBR4KMXl7FozKtLXgMvJxiiow/view?usp=sharing">Click for the Clone</a></button>
+            </div>
+
+            <!-- Project Card 3 (TeXplorer-2) -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">TeXplorer: An Android App for Device Information</h3>
+                <p class="text-gray-600 mb-4">TeXplorer is a group project for the problem-based learning program for my semester 6, and I and my team created this application for Android devices.</p>
+                <p class="text-gray-600 mb-4">TeXplorer is an Android app designed to provide detailed insights into device specifications. It offers comprehensive hardware and software information through a user-friendly interface, making it easy to understand your device's capabilities.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="https://drive.google.com/file/d/1icHFl93Y2vdjL7K6-7RKcpapvg_9AW2L/view?usp=drive_link">Click for the TeXplorer</a></button>
+            </div>
+
+            <!-- Project Card 4 (Amazon Clone-2) -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">Amazon homepage Clone with HTML and CSS only</h3>
+                <p class="text-gray-600 mb-4">Amazon is a globally renowned e-commerce platform offering a vast range of products, including electronics, fashion, books, and household items. Known for its user-friendly interface, fast delivery services, and customer-centric policies, it has become a one-stop shop for online shoppers. Amazon also provides services like Amazon Prime, streaming, and cloud computing through AWS. With its commitment to innovation and convenience, it has revolutionized online shopping worldwide.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="https://drive.google.com/file/d/1CTMzmXDOBR4KMXl7FozKtLXgMvJxiiow/view?usp=sharing">Click for the Clone</a></button>
+            </div>
+
+            <!-- Project Card 5 (TeXplorer-3) -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">TeXplorer: An Android App for Device Information</h3>
+                <p class="text-gray-600 mb-4">TeXplorer is a group project for the problem-based learning program for my semester 6, and I and my team created this application for Android devices.</p>
+                <p class="text-gray-600 mb-4">TeXplorer is an Android app designed to provide detailed insights into device specifications. It offers comprehensive hardware and software information through a user-friendly interface, making it easy to understand your device's capabilities.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="https://drive.google.com/file/d/1icHFl93Y2vdjL7K6-7RKcpapvg_9AW2L/view?usp=drive_link">Click for the TeXplorer</a></button>
+            </div>
+
+            <!-- Project Card 6 (Amazon Clone-3) -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">Amazon homepage Clone with HTML and CSS only</h3>
+                <p class="text-gray-600 mb-4">Amazon is a globally renowned e-commerce platform offering a vast range of products, including electronics, fashion, books, and household items. Known for its user-friendly interface, fast delivery services, and customer-centric policies, it has become a one-stop shop for online shoppers. Amazon also provides services like Amazon Prime, streaming, and cloud computing through AWS. With its commitment to innovation and convenience, it has revolutionized online shopping worldwide.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="https://drive.google.com/file/d/1CTMzmXDOBR4KMXl7FozKtLXgMvJxiiow/view?usp=sharing">Click for the Clone</a></button>
+            </div>
+
+            <!-- Project Card 7 (TeXplorer-4) -->
+            <div class="card border rounded-lg shadow hover:shadow-lg p-6 bg-white">
+                <h3 class="text-xl font-semibold mb-2">TeXplorer: An Android App for Device Information</h3>
+                <p class="text-gray-600 mb-4">TeXplorer is a group project for the problem-based learning program for my semester 6, and I and my team created this application for Android devices.</p>
+                <p class="text-gray-600 mb-4">TeXplorer is an Android app designed to provide detailed insights into device specifications. It offers comprehensive hardware and software information through a user-friendly interface, making it easy to understand your device's capabilities.</p>
+                <button class="bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-800"><a href="https://drive.google.com/file/d/1icHFl93Y2vdjL7K6-7RKcpapvg_9AW2L/view?usp=drive_link">Click for the TeXplorer</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="p-8 bg-white ">
+
+        <!-- Heading For Contact Me -->
+        <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+
+        <!-- Form For Contact Me -->
+        <form action="#" class="max-w-xl mx-auto bg-gray-100 p-6 rounded-lg shadow-md">
+
+            <!-- Name Input For Form -->
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                <input
+                    type="text" id="name" name="name" placeholder="Enter your name" required class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-gray-500">
+            </div>
+
+            <!-- Email Input For Form -->
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 font-medium mb-2">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-gray-500">
+            </div>
+
+            <!-- Message Input -->
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here" required rows="5" class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-gray-500"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="w-full bg-gray-600 text-white py-3 rounded-lg font-medium hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">Submit</button>
+        </form>
+    </section>
+    
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6">
+        <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center">
+
+            <!-- Phone Number -->
+            <p class="text-lg font-semibold">Call: <a href="tel:+91 1234567890" class="hover:underline">+91 1234567890</a></p>
+
+            <!-- Email ID -->
+            <p class="text-lg font-semibold">Email: <a href="mailto:abc@gmail.com" class="hover:underline">abc@gmail.com</a></p>
+        </div>
+
+        <!-- Copyright and Ownership -->
+        <div class="text-center mt-4 text-sm text-white">
+            © 2025 Harshil Ranpura. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
